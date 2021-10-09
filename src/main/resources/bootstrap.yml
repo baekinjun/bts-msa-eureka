@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: http://172.17.0.1:8888
+      name: eureka-server
+      profile: test
